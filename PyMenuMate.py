@@ -42,4 +42,9 @@ fungsimakanan()
 fungsiminuman()
 totalsemua = totalmkn+totalmnm
 
+print("\nTotal harus dibayar: Rp",totalsemua)
+uang=int(input("Uang Tunai Pembeli: Rp "))
+kembalian = int(uang-totalsemua)
+print("Kembalian :",kembalian)
+
 
